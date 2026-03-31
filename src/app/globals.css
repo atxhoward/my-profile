@@ -1,26 +1,38 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-bg: #fffbf5;
+  --color-surface: #fffdf9;
+  --color-text: #111111;
+  --color-muted: #4b5563;
+  --color-accent: #f59e57;
+  --color-border: #e8dfd3;
+  --color-timeline: #d8d2c8;
+  --color-pill: #ffe5cc;
+  --color-pill-text: #c2410c;
+  --color-blue: #5a9fd4;
+  --color-yellow: #e3bf66;
+  --color-red-mute: #ffe5cc;
+  --color-red: #c2410c;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-dm-sans);
+  --font-body: var(--font-inter);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  min-height: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3eee6;
+  background-image: url("/background-waves.jpg");
+  background-position: center 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--color-text);
+  font-family: var(--font-body), ui-sans-serif, sans-serif;
 }
