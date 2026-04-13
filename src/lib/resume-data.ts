@@ -22,9 +22,10 @@ export const resumeData = {
       dateRange: "January 2026 - Present",
       title: "Software Engineer",
       bullets: [
-        "Helped migrate a large backend platform to a new Azure environment, improving scalability, reliability, and long‑term maintainability.",
-        "Improved system performance by building and maintaining asynchronous workflows using Azure Service Bus and Azure Functions.",
-        "Contributed to more reliable production releases by aligning application changes with existing CI/CD and deployment workflows.",
+        "Played a key role in migrating a large, production backend platform to a new Azure environment, improving scalability, reliability, and long‑term maintainability.",
+        "Designed and maintained asynchronous, event‑driven workflows using Azure Service Bus and Azure Functions to improve system performance and resilience.",
+        "Built and extended CI/CD pipelines in Azure DevOps to support reliable, repeatable deployments across services.",
+        "Helped improve production release stability by aligning application changes with standardized deployment and release workflows.",
       ],
     },
     {
